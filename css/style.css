@@ -1,1 +1,57 @@
-/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+
+* {
+  font-family: "Kaisei Tokumin", serif;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+p {
+  font-size: 30px;
+}
+
+.navi {
+  margin: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back_btn_text {
+  font-size: 30px;
+}
+
+.change_page {
+  margin: 0px 300px;
+}
+.cp_app:hover {
+  text-decoration: underline;
+}
+
+.cp_about:hover {
+  text-decoration: underline;
+}
+
+.cp_vision:hover {
+  text-decoration: underline;
+}
+
+.cp_contact:hover {
+  text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    margin: 70px 0px 0px 0px;
+
+}
+
+.main_img{
+
+}
+
+.main_text{
+    padding: 0px 10px 0px 0px;
+    font-weight: 100;
+    font-size: 72px;
+}
