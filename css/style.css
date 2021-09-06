@@ -21,22 +21,24 @@ p {
 }
 
 .change_page {
-  margin: 0px 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px;
 }
-.cp_app:hover {
-  text-decoration: underline;
-}
-
-.cp_about:hover {
-  text-decoration: underline;
+.cp_app{
+  margin: 0px 50px 0px 50px;
 }
 
-.cp_vision:hover {
-  text-decoration: underline;
+.cp_about {
+  margin: 0px 0px 0px 50px;
 }
 
-.cp_contact:hover {
-  text-decoration: underline;
+.cp_vision {
+  margin: 0px 50px 0px 50px;
+}
+
+.cp_contact {
+  margin: 0px 0px 0px 50px;
 }
 
 .main{
@@ -47,11 +49,14 @@ p {
 }
 
 .main_img{
-
+  padding: 100px 150px;
+  position: relative;
 }
 
 .main_text{
     padding: 0px 10px 0px 0px;
     font-weight: 100;
     font-size: 72px;
+    position: absolute;
+    background-color: none;
 }
