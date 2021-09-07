@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 p {
   font-size: 30px;
 }
@@ -17,46 +22,113 @@ p {
 }
 
 .back_btn_text {
+  display: none;
   font-size: 30px;
+}
+.back_btn_text:hover {
+  text-decoration: underline;
 }
 
 .change_page {
   display: flex;
   justify-content: space-between;
-  margin: 0px 100px;
+  /* margin: 0px 100px; */
 }
-.cp_app{
-  margin: 0px 50px 0px 50px;
+
+.cp_app {
+  margin: 0px 0px 0px 50px;
+  /* font-size: 30px; */
+  /* transition: all 0.2s; */
+}
+.cp_app:hover {
+  text-decoration: underline;
 }
 
 .cp_about {
   margin: 0px 0px 0px 50px;
 }
+.cp_about:hover {
+  text-decoration: underline;
+}
 
 .cp_vision {
   margin: 0px 50px 0px 50px;
 }
-
-.cp_contact {
-  margin: 0px 0px 0px 50px;
+.cp_vision:hover {
+  text-decoration: underline;
 }
 
-.main{
-    display: flex;
-    align-items: center;
-    margin: 70px 0px 0px 0px;
-
+.cp_cotanct:hover {
+  text-decoration: underline;
 }
 
-.main_img{
-  padding: 100px 150px;
-  position: relative;
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* 
+.spbw{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
 }
 
-.main_text{
-    padding: 0px 10px 0px 0px;
-    font-weight: 100;
-    font-size: 72px;
-    position: absolute;
-    background-color: none;
+.left_arrow{
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+}
+
+.right_arrow{
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+} */
+
+.home_img {
+  padding: 100px 0px 0px 0px;
+  width: 80%;
+}
+
+.about_img {
+  display: none;
+  padding: 100px 0px 0px 0px;
+  width: 80%;
+}
+
+.vision_img {
+  display: none;
+  padding: 100px 0px 0px 0px;
+  width: 80%;
+}
+
+.contact_img {
+  display: none;
+  padding: 100px 0px 0px 0px;
+  width: 80%;
+}
+
+.sub_text {
+  font-size: 32px;
+  padding: 0px 0px 0px 600px;
+}
+
+.sub_text_url {
+  color: blue;
+  text-decoration: underline;
+}
+
+.fade {
+  animation: fadeIn 2s ease 0.3s 1 normal;
+}
+@keyframes fadeIn {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
+  } /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
+  } /*アニメーション終了時は不透明度100%*/
 }

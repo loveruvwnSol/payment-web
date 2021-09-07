@@ -12,21 +12,28 @@
 </head>
 
 <body>
-    <div class="contents">
+    <div class="contents fade">
         <ul class="navi">
             <div class="back_btn">
-                <p class="back_btn_text">< Back </p>
+                <p id="backBtn" class="back_btn_text">< Back </p>
             </div>
             <div class="change_page">
-                <p class="cp_App">App</p>
-                <p class="cp_about">About</p>
-                <p class="cp_vision">Vision</p>
-                <p class="cp_cotanct">Contact</p>
+                <a class="cp_app" href="https://loveruvwnsol.github.io/payment-app/"><p>App</p></a>
+                <p id="aboutBtn" class="cp_about">About</p>
+                <p id="visionBtn" class="cp_vision">Vision</p>
+                <p id="contactBtn" class="cp_cotanct">Contact</p>
             </div>
         </ul>
         <div class="main">
-            <img class="main_img" src="img/home.png">
-            <p>支払いアプリ</p>
+            <!-- <div class="spbw">
+                <h1 id="leftArrow" class="left_arrow"> < </h1> -->
+                <img id="homeImg" class="home_img" src="img/home-img.png">
+                <img id="aboutImg" class="about_img" src="img/about1-img.png">
+                <img id="visionImg" class="vision_img" src="img/vision-img.png">
+                <img id="contactImg" class="contact_img" src="img/contact-img.png">
+                <!-- <h1 id="rightArrow" class="right_arrow"> > </h1>
+            </div> -->
+            <p id="subText" class="sub_text"><a id="subTextUrl" class="sub_text_url"></a><br>支払いアプリ</p>
         </div>
     </div>
 </body>
