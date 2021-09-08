@@ -8,6 +8,7 @@ class paymentWeb {
     this.visionImg = document.getElementById("visionImg");
     this.contactImg = document.getElementById("contactImg");
     this.subText = document.getElementById("subText");
+    this.subText2 = document.getElementById("subText2");
     this.subTextUrl = document.getElementById("subTextUrl");
     this.backBtn = document.getElementById("backBtn");
   }
@@ -16,8 +17,8 @@ class paymentWeb {
     this.aboutImg.style.display = "flex";
     this.visionImg.style.display = "none";
     this.contactImg.style.display = "none";
-    this.subText.innerHTML =
-      "“割り勘”<br>金額と人数を入力し一人当たりの支払い金額を計算";
+    this.subText.innerHTML ="“割り勘”<br>金額と人数を入力し一人当たりの支払い金額を計算";
+    this.subText2.innerHTML = "“奢り”<br>名前を入力し奢る人をランダムで表示";
     this.backBtn.style.display = "flex";
   }
 
@@ -27,6 +28,7 @@ class paymentWeb {
     this.visionImg.style.display = "flex";
     this.contactImg.style.display = "none";
     this.subText.innerHTML = "お会計の前に利用し<br>スムーズに";
+    this.subText2.innerHTML = "";
     this.backBtn.style.display = "flex";
   }
 
@@ -36,6 +38,7 @@ class paymentWeb {
     this.visionImg.style.display = "none";
     this.contactImg.style.display = "flex";
     this.subText.innerHTML = "何かありましたら<br>気軽に報告してください";
+    this.subText2.innerHTML = "";
     this.subTextUrl.innerHTML = "https://payment-contact";
     this.backBtn.style.display = "flex";
   }

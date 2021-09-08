@@ -68,8 +68,8 @@ p {
   flex-direction: column;
   align-items: center;
 }
-/* 
-.spbw{
+
+/* .spbw{
   display: flex;
   justify-content: space-between;
   padding: 0px 50px;
@@ -89,30 +89,37 @@ p {
 
 .home_img {
   padding: 100px 0px 0px 0px;
-  width: 80%;
+  width: 70%;
 }
 
 .about_img {
   display: none;
   padding: 100px 0px 0px 0px;
-  width: 80%;
+  width: 70%;
 }
 
 .vision_img {
   display: none;
   padding: 100px 0px 0px 0px;
-  width: 80%;
+  width: 70%;
 }
 
 .contact_img {
   display: none;
   padding: 100px 0px 0px 0px;
-  width: 80%;
+  width: 70%;
 }
 
 .sub_text {
   font-size: 32px;
   padding: 0px 0px 0px 600px;
+  margin: 10px 0px;
+}
+
+.sub_text2{
+  font-size: 32px;
+  padding: 0px 0px 0px 420px;
+  margin: 10px 0px;
 }
 
 .sub_text_url {
